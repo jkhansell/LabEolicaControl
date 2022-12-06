@@ -10,7 +10,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Daq2.vi" Type="VI" URL="../Daq2.vi"/>
 		<Item Name="dataanalysis.py" Type="Document" URL="../dataanalysis.py"/>
 		<Item Name="FrequencyCalc.vi" Type="VI" URL="../FrequencyCalc.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
@@ -24,6 +23,8 @@
 			<Property Name="Name" Type="Str">SensorVelocidadAngular</Property>
 			<Property Name="PhysicalChanName" Type="Str">Dev1/ai0</Property>
 		</Item>
+		<Item Name="TestACS712.vi" Type="VI" URL="../TestACS712.vi"/>
+		<Item Name="TestVoltageDivider.vi" Type="VI" URL="../TestVoltageDivider.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="__closeStorageFromObject.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/__closeStorageFromObject.vi"/>
